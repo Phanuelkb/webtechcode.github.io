@@ -30,5 +30,3 @@ function validateLoginForm() {
 
     return true;
 }
-
-
