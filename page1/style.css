@@ -1,4 +1,4 @@
-body {
+ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
@@ -19,11 +19,11 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
-    text-align: center;
-}
+/*h1, h2 {
+    text-align: cente;
+}*/
 
-label, input, button {
+ button {
     display: block;
     margin-bottom: 10px;
 }
@@ -38,4 +38,18 @@ button {
 
 button:hover {
     background-color: #d3d5d7;
+}
+.fixed-width-label {
+    display: inline-block;
+    width: 150px; /* Adjust the width as needed */
+    text-align: right;
+    margin-right: 10px; /* Add some space between the label and input */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+    display: inline-block;
+    width: auto; /* Allow input fields to take available width */
 }
